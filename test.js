@@ -1,7 +1,7 @@
 "use strict";
 //Object
 const obj = {
-    company = "Adecco"
+    company : "Adecco"
 }
 
 //function
@@ -18,5 +18,8 @@ isEmptyObj();
 
 
 //ECMA script, new js
-const isNewEmptyObj = ()=> obj.title ? true :false
+const isNewEmptyObj = ()=> obj.title ? true :false;
     //iternally operator
+
+
+    // $ node  > String.(options)
